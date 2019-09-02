@@ -1,8 +1,10 @@
 #include <iostream>
 #include <cassert>
-#include "MyVector.cpp"
+#include "MyVector.h"
+
 
 int main() {
+
 	MyVector v1;
 
 	assert(v1.size() == 0);

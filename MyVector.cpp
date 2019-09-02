@@ -41,3 +41,7 @@ int MyVector::operator[](int pos) {
 
 	return VectorData[pos];
 }
+
+int MyVector::operator+(const MyVector& other) {
+	return 0;
+}
